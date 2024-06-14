@@ -1,0 +1,189 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#</title>
+    <link rel="stylesheet" href="bootstrap\css\home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+		<div class="banner">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+ 				 <div class="container-fluid">
+   					 <a class="navbar-brand" href="#">
+     					 <img src="image\logo.png" alt="" width="180" height="36">
+   					 </a>
+   					 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     					 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="home.html" style="padding-left: 25px; padding-right: 25px;"><strong>Trang Chủ</strong></a>
+							  </li>
+   						   </li>
+							  <li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="index.html" style="padding-left: 25px; padding-right: 25px;"><strong>Login/Register</strong></a>
+							  </li>
+    				 	 </ul>
+     					 <form class="d-flex">
+       						 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="width: 326px;">
+       						 <button class="btn btn-outline-success" type="submit">Search</button>
+      					</form>
+   					 </div>
+ 				 </div>
+			</nav>
+		</div>
+
+    <div class="flex-box">
+        <div class="left">
+            <div class="big-img">
+                <img src="image/Apple-WWDC23-MacBook-Air-15-in-hero-230605_big.jpg.large.jpg" class="d-block w-100" alt="..."  style="width: 100%; height: 200px; ">
+            </div>
+            <div class="images">
+                <div class="small-img">
+                    <img src="image/Apple-WWDC23-MacBook-Air-15-in-hero-230605_big.jpg.large.jpg" class="d-block w-100" alt="..."  style="width: 100%; height: 50px; " onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img src="image/Apple_MacBook-Pro_14-16-inch_10182021.jpg" class="d-block w-100" alt="..."  style="width: 100%; height: 50px; " onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img src="image/Apple16inchMacBookPro111319large.jpg" class="d-block w-100" alt="..."  style="width: 100%; height: 50px; " onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img src="image/m2-macbook-air-midnight.jpeg" class="d-block w-100" alt="..."  style="width: 100%; height: 50px; " onclick="showImg(this.src)">
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="pname">MacBook Air 13 ProMax</div>
+            <div class="ratings">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">40.000.000 VND</div>
+            <div class="size">
+                <p>Màu</p>
+                <div class="psize active">Đỏ</div>
+                <div class="psize">Xám</div>
+                <div class="psize">Trắng</div>
+                <div class="psize">Đen</div>
+            </div>
+            <div class="quantity">
+                <p>Số Lượng :</p>
+                <input type="number" min="1" max="10000000" value="1">
+            </div>
+            <div class="btn-box">
+                <a href="gh3.html"><button class="buy-btn">Mua Ngay</button></a>
+            </div>
+        </div>
+        <div class ="col-sm-3 bg-white">
+            <table class="table table-striped">
+                <thead>
+               <tr>
+                  <h3>Thông số kĩ thuật</h3>
+                </tr>
+                </thead>
+                <tbody>
+                   <tr>
+                      <td>Kích thước màn hình</td>
+                      <td>15 inches</td>
+                      
+                   </tr>
+                   <tr>
+                          <td>Công nghệ màn hình</td>
+                         <td>IPS LCD 1 Tỷ màu</td>
+                          
+                  </tr>
+                   <tr>
+                      <td>Ram</td>
+                         <td>32 GB</td>
+                      
+                   </tr>
+                   <tr>
+                       <td>Camera trước</td>
+                       <td>280 MP, f/2.2, 23mm (wide), 1/3.6"
+SL 3D, (depth/biometrics sensor)</td>
+                   </tr>
+                    <tr>
+                       <td>Chipset</td>
+                       <td>A13 Bionic</td>
+                   </tr>
+                    <tr>
+                       <td>Đa dạng tính năng</td>
+                       <td>Touch ID, Facetime HD Camera</td>
+                   </tr>
+                </tbody>
+         </table>
+     </div>
+    </div>
+    <body>
+        <div class="container my-5">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="card">
+                <img src="image/Apple-WWDC23-MacBook-Air-15-in-hero-230605_big.jpg.large.jpg" class="card-img-top" alt="MacBook">
+                <div class="card-body">
+                  <h5 class="card-title">MacBook Mới Nhất</h5>
+                  <p class="card-text">UPERTINO, CALIFORNIA Hôm nay, Apple ra mắt MacBook Air 15 inch, máy tính xách tay 15 inch tốt nhất thế giới. Sở hữu màn hình Liquid Retina rộng với kích thước 15,3 inch, hiệu năng ấn tượng đến từ chip M2, thời lượng pin lên đến 18 giờ1 và thiết kế không quạt yên tĩnh, MacBook Air mới vừa mạnh mẽ vừa gọn nhẹ — tất cả hội tụ trong mẫu máy tính xách tay 15 inch mỏng nhất thế giới. Nhờ hệ thống âm thanh sáu loa hoàn toàn mới, MacBook Air 15 inch mang đến Âm Thanh Không Gian sống động, đồng thời camera FaceTime HD 1080p, sạc MagSafe và sức mạnh, sự tiện dụng của macOS Ventura cũng góp phần mang lại trải nghiệm tuyệt đỉnh cho người dùng.
+                    "Chúng tôi rất vui mừng khi được giới thiệu MacBook Air 15 inch đầu tiên. Nhờ thiết kế ấn tượng và hiệu năng tuyệt vời, MacBook Air mới chính là mẫu máy tính xách tay 15 inch tốt nhất thế giới. Và điều này chỉ có thể được thực hiện nhờ chip Apple silicon", John Ternus, Phó Chủ Tịch Cấp Cao tại bộ phận Kỹ Thuật Phần Cứng của Apple chia sẻ. "Từ màn hình Liquid Retina rộng và thiết kế không quạt siêu mỏng nhẹ, cho đến thời lượng pin vượt trội cùng hệ thống âm thanh sáu loa sống động, MacBook Air mới sở hữu tất cả mọi thứ"..</p>
+                  <a href="https://www.apple.com/vn/newsroom/2023/06/apple-introduces-the-15-inch-macbook-air/" class="btn btn-primary">Xem Thêm</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <footer class="text-center text-lg-start bg-light text-muted">
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            
+            <div class="row mt-3">
+              
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>Sinh Viên Làm Bài
+                </h6>
+                <p>Đỗ Văn Tuyên</p>
+                <p>Mã Sinh Viên: 1771020734</p>
+                <p>Lớp CNTT 17-15</p>
+              </div>
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Liên hệ
+                </h6>
+                <p><i class="fas fa-home me-3"></i> Hà Nội, VN</p>
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                 dovantuyen.2005nb@gmail.com
+                </p>
+                <p><i class="fas fa-phone me-3"></i> 0978093862</p>
+                <p><i class="fas fa-print me-3"></i>0866512242</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2024 Bản quyền thuộc về:
+          <a class="text-reset fw-bold" href="https://www.facebook.com/dotuyen2005">Đỗ Tuyên</a>
+        </div>
+      </footer>
+    <script>
+       document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.small-img img').forEach(function(img) {
+    img.addEventListener('mouseover', function() {
+      
+      var src = img.getAttribute('src');
+      document.querySelector('.big-img img').setAttribute('src', src);
+    });
+  });
+});
+
+    </script>
+    <script type="text/javascript" src="bootstrap\js\bootstrap.js"></script>
+</body>
+</html>
